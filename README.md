@@ -19,4 +19,23 @@ This project uses machine learning techniques to forecast electricity consumptio
 - Git, GitHub
 
 ## Project Structure
+The project folder contains the following main components:
+
+- `data/` – Contains raw and cleaned datasets.
+- `notebooks/` – Jupyter Notebooks used for exploration and model building.
+- `models/` – Folder to save trained machine learning models.
+- `main.py` – Main Python script to run the pipeline (if used).
+- `requirements.txt` – List of required Python packages.
+- `README.md` – This file explains the project.
+
+##  How to Run
+
+1. **Clone the repository:**
+
+```bash
+git clone https://github.com/shaimaalzubi/EnergyConsumption.git
+cd EnergyConsumption
+pip install -r requirements.txt
+
+
 
